@@ -25,8 +25,8 @@ function draw(){
     cor1=int(random(255));
     cor2=int(random(255));
     cor3=int(random(255));
-    var rand1 = random(-10,10);
-    var rand2 = random(-10,10);
+    var rand1 = random(-100,100);
+    var rand2 = random(-100,100);
     var rand3 = random(50);
     ellipse(width/2+rand1*h,height/2+rand2*h,10+rand3,10+rand3);
   }
